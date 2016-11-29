@@ -1,0 +1,47 @@
+main{
+  width: 80%;
+  margin: 0px auto;
+}
+.top-bar{
+  float:left;
+  display: inline-block;
+  height: 100vh;
+  width: 33%;
+  background-color: #4a90e2;
+}
+.mid-bar{
+  float:left;
+  display: inline-block;
+  height: 100vh;
+  width: 33%;
+  background-color: #50e3c2;
+}
+.bottom-bar{
+  float:left;
+  display: inline-block;
+  height: 70vh;
+  width: 33%;
+  background-color: #b8e986;
+}
+.img-bar{
+  float:left;
+  display:flex;
+  flex-grow: 1;
+  align-items: center;
+    justify-content: center;
+  height: 30vh;
+  width: 33%;
+  background-color: red;
+}
+.img-bar{
+  background: url("https://i.ytimg.com/vi/2h6EQ57wgAs/maxresdefault.jpg");
+  background-size: cover;
+  background-position: center center;
+  opacity: .8;
+}
+.img-bar h1{
+  color: white;
+  font-weight: 700;
+  text-shadow: 2px 2px black;
+  font-size: 35px;
+}
